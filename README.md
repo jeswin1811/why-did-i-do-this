@@ -1,4 +1,4 @@
-# 🧠💥 *C-ing Is Believing* – A Barebones Web Server in C (on Windows?!)
+# 🧠💥 *C-ing Is Believing* – A Barebones Web Server in C on Windows.
 
 > *"Boredom fuels creativity. Or insanity. I forget which."*  
 > — Me, while writing this server.
