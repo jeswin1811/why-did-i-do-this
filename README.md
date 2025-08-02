@@ -47,20 +47,12 @@ Welcome to my tiny HTTP server written from scratch in C that serves static HTML
    ```
 5. Open your browser and go to [http://localhost:8080](http://localhost:8080)
 
-## 📦 Project Structure
-
-```
-📁 static/
-   └── index.html     # Your home page
-📄 main.c             # The entire web server
-```
-
 ## 🧪 Demo Behavior
 
 | Request               | Response                          |
 |----------------------|-----------------------------------|
 | `/` or `/index.html` | 200 OK + contents of `index.html` |
-| Anything else        | 404 Not Found + sad HTML          |
+| Anything else        | 404 Not Found                     |
 
 ## 🤖 What It *Doesn't* Do (Yet)
 
@@ -83,5 +75,3 @@ Also, writing something as low-level as a web server reminds you how much we tak
 This won't scale.  
 It won't secure your startup.  
 But it *will* teach you how a simple HTTP server works under the hood.
-
-And if you’re just like me — building things out of nowhere because you *can* — then hey, welcome to the club.
